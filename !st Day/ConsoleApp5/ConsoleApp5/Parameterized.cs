@@ -9,6 +9,7 @@ namespace ConsoleApp5
         int x;
         public Parameterized(int i)
         {
+            x = i;
             Console.WriteLine("Parameterized Constructor is called " + i);
      
         }
